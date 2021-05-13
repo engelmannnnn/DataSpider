@@ -1,1 +1,4 @@
-# MS_Market_Spider
+# 爬虫项目, 抓取了微软应用商店和SalesForce商店的app信息
+## 1、微软商店是通过接口形式抓取的， sf是通过页面解析抓取的，使用webdriver进行翻页等操作。
+## 2、抓取的数据保存在result/目录下的excel表格中
+## 3、封装了一个excel操作库，可以对excel表格进行增删改查
